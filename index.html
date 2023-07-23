@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hostar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="https://img.hotstar.com/image/upload/v1656431456/web-images/logo-d-plus.svg" class="brand-logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">Tv</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Disney+</a></li>
+            <li class="nav-items"><a href="#"><img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/feature/profile/19.png" alt="" class="kids-icon"></a></li>
+        </ul>
+
+         <div class="right-container">
+            <input type="text" placeholder="search" class="search-box">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a>
+         </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+         
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="data:image/png;base64,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" alt="" class="video-card-image">
+            <video src="https://img1.hotstarext.com/video/upload/sources/r1/cms/animations/qh3yh_1587393133132" class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="https://www.seekpng.com/png/full/149-1495908_disney-pixar-png-clip-art-free-download-disney.png" alt="" class="video-card-image">
+            <video src="https://img1.hotstarext.com/video/upload/sources/r1/cms/animations/a6lr0r_1587393331483" class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="" class="video-card-image">
+            <video src="https://img1.hotstarext.com/video/upload/sources/r1/cms/animations/1on5cf_1587393232549" class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="https://www.citypng.com/public/uploads/preview/-51608494060e1tvtjfsry.png?v=2023070303" alt="" class="video-card-image">
+            <video src="https://img1.hotstarext.com/video/upload/sources/r1/cms/animations/utwmfd_1587393376512" class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb65psqG7pfuFWJ5K8YdGcswI8_R81PUMtFQ&usqp=CAU" alt="" class="video-card-image">
+            <video src="https://img1.hotstarext.com/video/upload/sources/r1/cms/animations/ojerhm_1587393280208" class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">Recommended for you</h1>
+
+    <div class="movie-list">
+        <button class="pre-btn"><img src="https://w7.pngwing.com/pngs/730/2/png-transparent-computer-icons-arrow-previous-button-angle-rectangle-triangle-thumbnail.png" alt=""></button>
+        <button class="nxt-btn"><img src="https://w7.pngwing.com/pngs/33/447/png-transparent-computer-icons-fast-forward-next-button-miscellaneous-angle-rectangle-thumbnail.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3373/1543373-v-628b5e8c47f7" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3891/673891-v" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4968/1414968-v-dea0ea8e0216" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4888/1514888-v-044c596378fa" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1691/1011691-v-657881703c09" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5215/875215-v" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/old_images/vertical/MOVIE/333/1770000333/1770000333-v" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/6504/1366504-t-88521c1682c5" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4597/1264597-v-013e4e377c7e" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9680/1549680-v-694b268f0b31" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3982/1533982-v-f755aac5abdc" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1780/1291780-v-d20f8d106d78" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+   
+    <script src="slider-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
